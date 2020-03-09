@@ -29,7 +29,7 @@ function Footer() {
                                             </a>
                                         </li> */}
                                         <li>
-                                            <a href="#">
+                                            {/* <a href="#"> */}
                                                 <span>
                                                     <Icon icon={faEnvelopeOpen} />
                                                 </span>
@@ -37,7 +37,7 @@ function Footer() {
                                                     Class="footer-link footer-email"
                                                     Name="clara@botsfactory.io"
                                                 />
-                                            </a>
+                                            {/* </a> */}
                                         </li>
                                         {/* <li>
                                             <a href="#">

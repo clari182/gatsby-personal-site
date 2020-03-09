@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Subtitle, Description, Titlespan2, Title } from '../../components/common/title/index';
+import { Subtitle, Description, Titlespan2 } from '../../components/common/title/index';
 import Image from '../../components/common/image/index';
 import Skills_img from '../../assets/images/skills/techs.png';
 import Progressbar from './progressbar';

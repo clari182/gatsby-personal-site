@@ -6,7 +6,6 @@ import '../../containers/navbar/navbar.scss';
 
 function Navbar() {
     const [activeClass, setactiveClass] = useState(false);
-    const [search, setSearch] = useState(false);
     useEffect(() => {
         if (typeof window !== 'undefined') {
             window.addEventListener('scroll', () => {

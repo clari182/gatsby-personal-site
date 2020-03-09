@@ -1,7 +1,3 @@
-import img1 from '../../assets/images/portfolio/img1.png';
-import img2 from '../../assets/images/portfolio/img2.png';
-import img3 from '../../assets/images/portfolio/img3.png';
-import img4 from '../../assets/images/portfolio/img4.png';
 
 import cosmichype from '../../assets/images/portfolio/cosmichype.png';
 import botsfactory from '../../assets/images/portfolio/botsfactory.png';

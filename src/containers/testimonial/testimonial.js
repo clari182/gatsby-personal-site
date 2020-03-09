@@ -29,7 +29,7 @@ function CarouselSlider() {
                                     <i></i>
                                     <i></i>
                                 </div>
-                                <a href={data.link} target="_blank">
+                                <a href={data.link} target="_blank" rel="noopener noreferrer">
                                     <Description
                                         Class="testimonial-dec"
                                         Name={data.content}

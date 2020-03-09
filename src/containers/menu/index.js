@@ -8,7 +8,7 @@ import './menu.scss';
 function Menu() {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
-    const [activeClass, setactiveClass] = useState(false);
+    const [, setactiveClass] = useState(false);
     const [active, setActive] = useState();
 
     React.useEffect(() => {
@@ -25,7 +25,7 @@ function Menu() {
         }
 
         const ScrollMenu = [];
-        Menudata.map((data, i) =>
+        Menudata.map((data) =>
             ScrollMenu.push(data.href.slice(1))
         )
 
