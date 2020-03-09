@@ -1,0 +1,35 @@
+// _base.scss
+
+.section {
+    width: 100%;
+    // display: flex;
+    min-height: 400px;
+    align-items: center;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+
+        p {
+            font-family: Helvetica Neue;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 27px;
+            line-height: 32px;
+            color: rgb(13, 92, 99);
+        }
+    }
+
+    .content.left {
+        p {
+             margin-left: 10%;
+        }
+    }
+
+    .content.right {
+        p {
+            margin-right: 10%;
+        }
+    }
+}

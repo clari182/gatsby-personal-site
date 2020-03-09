@@ -1,0 +1,73 @@
+
+@import '../index.scss';
+
+.about {
+    background: #00334e;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #00334e, #225773);
+    position: relative;
+
+    .image-cropper {
+        // width: 100px;
+        // height: 100px;
+        // position: relative;
+        // overflow: hidden;
+        // border-radius: 50%;
+        margin-left: 30px;
+    
+        .avatar {
+            // object-fit: cover;
+            // border-radius: 50%;
+            // height: 100px;
+            min-width: 95px;
+        }
+    
+    }
+
+    h1 {
+        padding: 0 30px 0 30px;
+        color: #FFFFFF;
+
+        @media (max-width: 450px) {
+            font-size: 20px;
+        }
+
+        @media (min-width: 451px) and (max-width: 570px) {
+            font-size: 30px;
+        }
+        @media (min-width: 571px) and (max-width: 650px) {
+            font-size: 35px;
+        }
+
+        a {
+            color: #f186b4;
+            text-decoration: none;
+        
+        }
+
+    }
+}
+
+.about::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, #f4faff 13px);
+}
+.about::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    height: 15px;
+    background-size: 40px 20px;
+    background-image: radial-gradient(circle at 10px 15px, #f4faff 12px, transparent 13px);
+}

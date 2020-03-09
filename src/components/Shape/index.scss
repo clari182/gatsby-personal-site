@@ -1,0 +1,66 @@
+.shape-container {
+    position: relative;
+    width: 90px;
+    height: 93px;
+    .top, .right, .bottom {
+
+        border: 5px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+
+    }
+    .top {
+        position: absolute;
+        left: 13.53%;
+        right: 24.06%;
+        top: 0%;
+        bottom: 39.86%;
+    }
+    
+    .right {
+        position: absolute;
+        left: 37.59%;
+        right: 0%;
+        top: 19.57%;
+        bottom: 20.29%;
+    }
+    
+    .bottom {
+        position: absolute;
+        left: 0%;
+        right: 37.59%;
+        top: 39.86%;
+        bottom: 0%;
+    }
+
+    p {
+        
+        position: absolute;
+        font-size: 16px !important;
+        // left: 9.53%;
+        // right: 24.06%;
+        // top: -27%;
+        // bottom: 39.86%;
+    }
+    p.p-top {
+        left: 9.53%;
+        right: 24.06%;
+        top: -27%;
+        bottom: 39.86%;
+    }
+
+    p.p-right {
+        transform: rotate(90deg);
+        left: 77.53%;
+        /* right: 24.06%; */
+        top: 31%;
+        /* bottom: 39.8 */
+    }
+
+    p.p-bottom {
+        bottom: -54.14%;
+    }
+
+    .top-top, .right-right, .bottom-bottom {
+        border: 6px solid #FFFFFF;
+    }
+}
