@@ -6,6 +6,7 @@ import Banner from '../containers/banner';
 import Skills from '../containers/skills';
 import Portfolio from '../containers/portfolio';
 import Testimonial from '../containers/testimonial';
+import Chat from '../components/Chat'
 import Footer from '../containers/footer';
 import '../assets/scss/style.scss';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
@@ -29,6 +30,7 @@ const BusinessTheme = (props) => {
                     <Testimonial />
                     <Portfolio />
                     <Footer />
+                    <Chat />
                     {/* <ThemeColor /> */}
                 </div>
             </React.Fragment>

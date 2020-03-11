@@ -204,6 +204,20 @@ body {
 #main-content {
   position: relative;
   overflow: hidden;
+  .chat {
+    position: fixed;
+    bottom: 0px;
+    right: 12px;
+  }
+  .convo {
+    position: fixed;
+    bottom: 61px;
+    right: 12px;
+
+    iframe {
+      border-radius: 10px;
+    }
+  }
 }
 
 header {
