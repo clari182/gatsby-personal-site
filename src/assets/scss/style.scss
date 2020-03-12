@@ -214,6 +214,10 @@ body {
     bottom: 61px;
     right: 12px;
 
+    &.false{
+      display: none;
+    }
+
     iframe {
       border-radius: 10px;
     }

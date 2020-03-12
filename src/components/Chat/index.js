@@ -12,7 +12,7 @@ const Chat = (props) => {
     }
 
     return <>
-        {convo && <div className="convo"><iframe src="https://clara-youdale-bot-iframe.azurewebsites.net" width="300" height="400" /></div>}
+        <div className={`convo ${convo}`}><iframe src="https://clara-youdale-bot-iframe.azurewebsites.net" width="300" height="400" /></div>
         <div className="chat" onClick={onClick} ><Image Path={BubbleImg} /></div>
     </>
 }
