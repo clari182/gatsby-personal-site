@@ -220,7 +220,24 @@ body {
 
     iframe {
       border-radius: 10px;
+      @media (max-width: 600px) {
+        width: 300px;
+        height: 500px;
+      }
+
+      
+      @media (min-width: 601px) {
+        width: 400px;
+        height: 600px;
+      }
+      
+      
+      @media (min-width: 011px) {
+        width: 450px;
+        height: 650px;
+      }
     }
+
   }
 }
 
