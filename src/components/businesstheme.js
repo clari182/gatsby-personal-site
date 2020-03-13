@@ -16,7 +16,7 @@ const BusinessTheme = (props) => {
     React.useEffect(() => {
         const interval = setInterval(() => {
             setLoader(true)
-        }, 3000);
+        }, 2000);
         return () => clearInterval(interval);
     }, [])
 
