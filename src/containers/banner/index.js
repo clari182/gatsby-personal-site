@@ -20,7 +20,7 @@ function Banner(props) {
                 </div>
                 <Container>
                     <Row>
-                        <Col md={6}>
+                        <Col md={9}>
                             <div className="banner-content">
                                 <Titlespan
                                     Class="banner-main-title"
@@ -45,7 +45,7 @@ function Banner(props) {
                                 </div> */}
                             </div>
                         </Col>
-                        <Col md={6}>
+                        <Col md={3}>
                             <div className="banner-image">
                                 <Image
                                     Path={BannerImg1}
