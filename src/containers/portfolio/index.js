@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Subtitle, Description, Title, Titlespan2 } from '../../components/common/title/index';
 import PortfolioData from '../../data/portfolio/index';
 import './portfolio.scss';
+import Button from '../../components/common/button';
 
 function Portfolio() {
     return (
@@ -38,6 +39,13 @@ function Portfolio() {
                                             Class="portfolio-hover-dec"
                                             Name={data.subcontent}
                                         />
+                                        <a href={data.url} target="_blank">
+                                            <Button
+                                            Class="button1 btn button2 gradient-color"
+                                            Name="View more"
+                                            BtnIcon="btn-icon"
+                                        />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
