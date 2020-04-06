@@ -39,31 +39,31 @@ function Skills() {
                                     <div className="progressbar-block">
                                         <Progressbar
                                             Class="progressbar1"
-                                            Percenteg="96"
+                                            Percenteg="100"
                                             ProgressTitle="Node.js"
                                             ProgressClass="progressbar-title"
                                         />
                                         <Progressbar
                                             Class="progressbar2"
-                                            Percenteg="95"
+                                            Percenteg="100"
                                             ProgressTitle="ReactJS"
                                             ProgressClass="progressbar-title"
                                         />
                                         <Progressbar
                                             Class="progressbar3"
-                                            Percenteg="95"
+                                            Percenteg="100"
                                             ProgressTitle="Redux"
                                             ProgressClass="progressbar-title"
                                         />
                                         <Progressbar
                                             Class="progressbar3"
-                                            Percenteg="99"
+                                            Percenteg="100"
                                             ProgressTitle="Microsoft Bot Framework"
                                             ProgressClass="progressbar-title"
                                         />
                                         <Progressbar
                                             Class="progressbar3"
-                                            Percenteg="95"
+                                            Percenteg="100"
                                             ProgressTitle="GraphQL"
                                             ProgressClass="progressbar-title"
                                         />

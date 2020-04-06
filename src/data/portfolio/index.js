@@ -3,7 +3,7 @@ import cosmichype from '../../assets/images/portfolio/cosmichype.png';
 import botsfactory from '../../assets/images/portfolio/botsfactory.png';
 import astrolobot from '../../assets/images/portfolio/astrolobot.png';
 import whatsapp from '../../assets/images/portfolio/whatsapp.png';
-import yoayudo from '../../assets/images/portfolio/yoayudo.JPG';
+import yoayudo from '../../assets/images/portfolio/yoayudo.png';
 
 const PortfolioData = [
   {
