@@ -25,7 +25,7 @@
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
-    "next": "9.1.4",
+    "next": "9.3.2",
     "next-compose-plugins": "^2.2.0",
     "node-sass": "^4.13.1",
     "nuka-carousel": "^4.6.3",
