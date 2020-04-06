@@ -17,7 +17,7 @@ const PortfolioData = [
     "id": 2,
     "img": botsfactory,
     "subtitle": "Botsfactory",
-    "subcontent": "Botsfactory is a Chatbot Building platform to create and deploy Messenger Chatbots without coding.",
+    "subcontent": "Chatbot Building platform to create and deploy Messenger Chatbots without coding.",
     "url": "https://botsfactory.io"
   },
   {
