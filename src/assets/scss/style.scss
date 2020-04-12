@@ -225,6 +225,7 @@ body {
       border-radius: 5px;
       width: 400px;
       height: 500px;
+      z-index: 5;
 
       .close-convo {
         position: absolute;
@@ -255,7 +256,7 @@ header {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 70;
+  z-index: 4;
   padding-top: 31px;
   transition: all 0.5s ease-in-out;
   &.header-sticky {
