@@ -311,6 +311,9 @@ header {
     padding-right: 18px;
     min-width: auto;
   }
+  &.m-auto {
+    margin: auto;
+  }
   .title {
     font-size: calc(13px + (16 - 13) * ((100vw - 320px) / (1920 - 320)));
     font-weight: 500;

@@ -29,7 +29,9 @@ function Banner(props) {
                                 />
                                 <Description
                                     Class="banner-dec"
-                                    Name="Software Engineer and Co-founder of Botsfactory.io and Luyten.ai"
+                                    Name={<p className="banner-dec">
+                                        Software Engineer and Co-founder of <a target="_blank" style={{ color: "#ffffff" }} href="https://botsfactory.io">Botsfactory.io</a> and <a target="_blank" style={{ color: "#ffffff" }} href="https://www.upwork.com/ag/luytenai/">Luyten.ai</a>
+                                    </p>}
                                 />
                                 {/* <div className="banner-btn-wrapper">
                                     <Button

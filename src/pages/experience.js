@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 import Button from "../components/common/button";
 import Navbar from "../containers/navbar";
 
-const NotFoundPage = () => (
+const ExperiencePage = () => (
   <>
     <Helmet>
       <meta charSet="utf-8" />
@@ -27,7 +27,7 @@ const NotFoundPage = () => (
               <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
               <a href="/">
                 <Button
-                  Class="button1 btn button2 gradient-color m-auto"
+                  Class="button1 btn button2 gradient-color"
                   Name="Go back home"
                   BtnIcon="btn-icon"
                   style={{ margin: "auto" }} />
@@ -40,4 +40,4 @@ const NotFoundPage = () => (
   </>
 )
 
-export default NotFoundPage
+export default ExperiencePage
