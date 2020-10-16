@@ -24,12 +24,12 @@ function Banner(props) {
                             <div className="banner-content">
                                 <Titlespan
                                     Class="banner-main-title"
-                                    Label="I AM"
-                                    Name="CLARA YOUDALE"
+                                    Label="WELCOME!"
+                                    Name=""
                                 />
                                 <Description
                                     Class="banner-dec"
-                                    Name="Software Engineer and Co-founder of Botsfactory.io and Luyten.ai"
+                                    Name="I'm Clara Youdale, Software Engineer and Co-founder of Botsfactory.io and Luyten.ai"
                                 />
                                 {/* <div className="banner-btn-wrapper">
                                     <Button
