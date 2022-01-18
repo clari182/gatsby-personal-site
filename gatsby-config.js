@@ -25,8 +25,6 @@ module.exports = {
         // Name of the event that is triggered
         // on every Gatsby route change.
         //
-        // Defaults to gatsby-route-change
-        routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
         // Defaults to false
         enableWebVitalsTracking: true,
         // Defaults to https://www.googletagmanager.com
